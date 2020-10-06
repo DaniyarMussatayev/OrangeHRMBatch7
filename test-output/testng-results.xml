@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54766" started-at="2020-10-04T15:19:04 ALMT" finished-at="2020-10-04T15:19:59 ALMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54766" started-at="2020-10-04T15:19:04 ALMT" finished-at="2020-10-04T15:19:59 ALMT">
+      <class name="com.syntax.practice.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="setUp" is-config="true" duration-ms="11135" started-at="2020-10-04T15:19:04 ALMT" finished-at="2020-10-04T15:19:16 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="loginTest" duration-ms="4748" started-at="2020-10-04T15:19:16 ALMT" finished-at="2020-10-04T15:19:20 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="tearDown" is-config="true" duration-ms="934" started-at="2020-10-04T15:19:20 ALMT" finished-at="2020-10-04T15:19:21 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="setUp" is-config="true" duration-ms="12501" started-at="2020-10-04T15:19:21 ALMT" finished-at="2020-10-04T15:19:34 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="negativeLoginTest" duration-ms="1543" started-at="2020-10-04T15:19:34 ALMT" data-provider="data" finished-at="2020-10-04T15:19:35 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="tearDown" is-config="true" duration-ms="878" started-at="2020-10-04T15:19:35 ALMT" finished-at="2020-10-04T15:19:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="setUp" is-config="true" duration-ms="11531" started-at="2020-10-04T15:19:36 ALMT" finished-at="2020-10-04T15:19:48 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="negativeLoginTest" duration-ms="1104" started-at="2020-10-04T15:19:48 ALMT" data-provider="data" finished-at="2020-10-04T15:19:49 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="tearDown" is-config="true" duration-ms="742" started-at="2020-10-04T15:19:49 ALMT" finished-at="2020-10-04T15:19:50 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="setUp" is-config="true" duration-ms="8629" started-at="2020-10-04T15:19:50 ALMT" finished-at="2020-10-04T15:19:58 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="negativeLoginTest" duration-ms="262" started-at="2020-10-04T15:19:58 ALMT" data-provider="data" finished-at="2020-10-04T15:19:58 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.practice.TestLogin@6acdbdf5]" name="tearDown" is-config="true" duration-ms="701" started-at="2020-10-04T15:19:58 ALMT" finished-at="2020-10-04T15:19:59 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.syntax.practice.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
